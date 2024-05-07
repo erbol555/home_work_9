@@ -245,18 +245,17 @@
 
 
 
-// let arr = [1, 2, 3, 4, 5, 6]
-// function func(arr){
-//     let num = []
-//   return arr.map(el=>{
-//     if(el%2===0){
-//       num.push(el)
-//     }
-//     return num
 
-//   })
-// }
-// console.log(func(arr));
+function func4(arr){
+    let num = 0;
+  for(let i=0; i<=arr.length;i++){
+    if(arr[i]%2===0){
+num+=i
+    }
+    return num
+  }
+}
+console.log(func4([1, 2, 3, 4, 5, 6]));
 
 
 
@@ -283,14 +282,14 @@ function rgb(n,u,m){
 console.log(rgb(2,3,4));
 
 
-function func(a,b){
-    if(a.length === b.length&&a===b){
-        return true
-    }else{
-        return false
-    }
-}
-console.log(func(234,234));
+// function func(a,b){
+//     if(a.length === b.length && a===b){
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+// console.log(func(234,234));
 
 
 
